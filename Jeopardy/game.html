@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Over</title>
+    <link rel="Stylesheet" href="styles.css">
+    <style>
+        .game {
+            color: #380000;
+            font-size: 150px;
+            border: solid 5px;
+            border-color: #380000;
+            border-spacing: 20px;
+        }
+
+        .retry {
+            background-color: #380000;
+            color: black;
+            width: 130px;
+            height: 50px;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            font-size: 19px;
+            font-family: 'Syne Mono', monospace;
+        }
+
+        .quit {
+            background-color: #380000;
+            color: black;
+            width: 130px;
+            height: 50px;
+            border: none;
+            border-radius: 10px;
+            margin-top: 10px;
+            font-size: 19px;
+            font-family: 'Syne Mono', monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="game">Game Over</h1>
+    <button class="retry" onclick="location.href='http://127.0.0.1:5501/index.html'">Retry?</button>
+    
+    <button class="quit" onclick="location.href='http://127.0.0.1:5501/bye.html'">Quit</button>
+</body>
+</html>
